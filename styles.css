@@ -1,0 +1,17 @@
+body{
+  background-color: orange;
+
+}
+span {
+  background-color: blue;
+}
+#primeiro{
+  color: white;
+
+}
+#segundo{
+  color: cyan;
+}
+.big{
+  font-size: 3em;
+}
