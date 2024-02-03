@@ -21,6 +21,12 @@
         .bg-black {
             background-color: #000 !important; /* cor preta (importante para substituir qualquer outra cor definida anteriormente) */
         }
+
+        /* Estilo para a linha divisória */
+        .divider {
+            border-right: 1px solid #fff;
+            height: 100%;
+        }
     </style>
 </head>
 
@@ -28,12 +34,16 @@
 
     <!-- Main Content -->
     <div class="container mt-4 text-white">
-        <!-- Divisão para o lado esquerdo -->
+        <!-- Divisão para o lado esquerdo e direito -->
         <div class="row">
             <div class="col-md-6">
                 <div class="text-center">
                     <img src="picture.png" alt="Julio Andrade" class="rounded-circle" style="width: 150px; height: 150px;">
+                    <h1 class="mt-3" style="color: #fff;">JULIO ANDRADE</h1>
                 </div>
+
+                <!-- Adicionando a linha divisória -->
+                <hr class="divider">
 
                 <!-- Seções adicionais do lado esquerdo (Personal Profile, Objective, Academic Education, Courses, Get in Touch) -->
                 <div style="margin-bottom:10px">
@@ -70,8 +80,11 @@
                 </div>
             </div>
 
-            <!-- Divisão para o lado direito -->
             <div class="col-md-6">
+                <!-- Adicionando a linha divisória -->
+                <hr class="divider">
+
+                <!-- Seções adicionais do lado direito (Professional History, Competencies, Additional Experiences) -->
                 <div style="margin-bottom:10px">
                     <!-- Seção Professional History -->
                     <h2>Professional History</h2>
